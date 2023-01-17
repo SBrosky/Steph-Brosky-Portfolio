@@ -2,13 +2,33 @@
   --headline-font-family: "Playfair Display", serif;
   --main-font-family: "Poppins", sans-serif;
   --main-brand-color: #f9f7fe;
-  --secondary-brand-color: #6C63FF;
+  --secondary-brand-color: #6c63ff;
 }
 
 h1 {
   font-family: var(--headline-font-family);
   font-size: 96px;
   font-weight: bold;
+}
+
+h2 {
+  font-family: var(--headline-font-family);
+  font-weight: bold;
+  font-size: 44px;
+}
+
+p {
+  font-family: var(--main-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+img {
+  margin: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: var(--main-brand-color);
 }
 
 .hero {
@@ -22,7 +42,6 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  M
 }
 
 .hero h2 {
@@ -32,19 +51,38 @@ h1 {
   margin: 0;
 }
 
-.btn-contact { 
-    background-color: var(--secondary-brand-color) ;
-    color:white;
-    font-family: var(--main-font-family);
-    font-weight: 400;
-    padding: 10px 20px;
-    margin-top: 30px;
-    border-radius: 4px;
+.btn-contact {
+  background-color: var(--secondary-brand-color);
+  color: white;
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 4px;
 }
 
-.btn-contact:hover { 
-    color: var(--secondary-brand-color);
-    border: 1px solid var(--secondary-brand-color);
+.btn-contact:hover {
+  color: var(--secondary-brand-color);
+  border: 1px solid var(--secondary-brand-color);
+}
 
+.project-content {
+  margin: 20px 100px;
+}
 
+.project-description {
+  margin: 100px 30px;
+}
+
+.app-btn {
+  background-color: var(--main-brand-color);
+  color: var(--secondary-brand-color);
+  border: 1px solid var(--secondary-brand-color);
+  padding: 8px 25px;
+  transition: all 150ms ease-in-out;
+}
+
+.app-btn:hover {
+  background-color: var(--secondary-brand-color);
+  color: var(--main-brand-color);
 }
