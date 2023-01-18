@@ -14,7 +14,7 @@ h1 {
 h2 {
   font-family: var(--headline-font-family);
   font-weight: bold;
-  font-size: 44px;
+  font-size: 36px;
 }
 
 p {
@@ -71,11 +71,11 @@ img {
 }
 
 .project-content {
-  margin: 20px 100px;
+  margin: 10px 30px;
 }
 
 .project-description {
-  margin: 100px 30px;
+  margin: 15px 20px;
 }
 
 .app-btn {
@@ -91,7 +91,7 @@ img {
   color: var(--main-brand-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 44px;
   }
@@ -128,5 +128,11 @@ img {
   .project-content a {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (min-width: 993px) {
+  .project-description {
+    margin: 70px 20px;
   }
 }
