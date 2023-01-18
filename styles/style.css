@@ -91,6 +91,33 @@ img {
   color: var(--main-brand-color);
 }
 
+.about-section {
+  padding: 160px 70px;
+}
+
+.about-photo {
+  max-width: 460px;
+  border-radius: 10px;
+}
+
+.about-section h1 {
+  font-size: 44px;
+  font-family: var(--headline-font-family);
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--main-font-family);
+  font-weight: bold;
+}
+
+.about-section p {
+  font-size: 16px;
+  font-family: var(--main-font-family);
+  line-height: 1.5;
+  font-weight: normal;
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 44px;
@@ -128,6 +155,31 @@ img {
   .project-content a {
     display: flex;
     justify-content: center;
+  }
+
+  .about-section {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .about-photo {
+    max-width: 300px;
+    margin-top: 50px;
+  }
+
+  .about-section h1 {
+    font-size: 36px;
+  }
+
+  .about-section h2 {
+    font-size: 14px;
+    font-family: var(--main-font-family);
+    font-weight: bold;
+  }
+
+  .about-section p {
+    font-size: 12px;
+    margin-bottom: 30px;
   }
 }
 
