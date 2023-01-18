@@ -91,7 +91,7 @@ img {
   color: var(--main-brand-color);
 }
 
-.about-section {
+.content-container {
   padding: 160px 70px;
 }
 
@@ -100,18 +100,24 @@ img {
   border-radius: 10px;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 44px;
   font-family: var(--headline-font-family);
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--main-font-family);
   font-weight: bold;
 }
 
-.about-section p {
+.content h3 {
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--headline-font-family);
+}
+
+.content p {
   font-size: 16px;
   font-family: var(--main-font-family);
   line-height: 1.5;
@@ -157,7 +163,7 @@ img {
     justify-content: center;
   }
 
-  .about-section {
+  .content-container {
     padding: 10px;
     text-align: center;
   }
@@ -167,17 +173,17 @@ img {
     margin-top: 50px;
   }
 
-  .about-section h1 {
+  .content h1 {
     font-size: 36px;
   }
 
-  .about-section h2 {
+  .content h2 {
     font-size: 14px;
     font-family: var(--main-font-family);
     font-weight: bold;
   }
 
-  .about-section p {
+  .content p {
     font-size: 12px;
     margin-bottom: 30px;
   }
