@@ -124,6 +124,10 @@ img {
   font-weight: normal;
 }
 
+.content img {
+  width: 600px;
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 44px;
