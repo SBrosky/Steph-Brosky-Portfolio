@@ -117,6 +117,13 @@ img {
   font-family: var(--headline-font-family);
 }
 
+.content h4 {
+  font-size: 44px;
+  font-family: var(--main-font-family);
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
 .content p {
   font-size: 16px;
   font-family: var(--main-font-family);
@@ -124,8 +131,7 @@ img {
   font-weight: normal;
 }
 
-.content img {
-  width: 600px;
+.work-headline {
 }
 
 @media (max-width: 767px) {
@@ -185,6 +191,11 @@ img {
     font-size: 14px;
     font-family: var(--main-font-family);
     font-weight: bold;
+  }
+
+  .content h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
   .content p {
