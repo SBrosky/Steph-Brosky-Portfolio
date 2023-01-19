@@ -5,6 +5,28 @@
   --secondary-brand-color: #6c63ff;
 }
 
+nav {
+  padding: 20px 0 0 20px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  line-height: 42px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  opacity: 70%;
+}
+nav a:hover {
+  color: var(--secondary-brand-color);
+  opacity: 100%;
+}
+
 h1 {
   font-family: var(--headline-font-family);
   font-size: 96px;
@@ -29,6 +51,15 @@ img {
   border-radius: 5px;
   padding: 20px;
   background-color: var(--main-brand-color);
+}
+
+.logo {
+  font-size: 24px;
+  font-family: var(--headline-font-family);
+}
+
+.logo-icon {
+  color: var(--secondary-brand-color);
 }
 
 .hero {
@@ -126,9 +157,6 @@ img {
   font-family: var(--main-font-family);
   line-height: 1.5;
   font-weight: normal;
-}
-
-.work-headline {
 }
 
 @media (max-width: 767px) {
