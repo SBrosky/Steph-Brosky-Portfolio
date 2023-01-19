@@ -21,10 +21,14 @@ nav a {
   text-decoration: none;
   color: #272142;
   opacity: 70%;
+  transition: all 100ms ease-in-out;
 }
-nav a:hover {
+
+nav ul a:hover,
+.active {
   color: var(--secondary-brand-color);
   opacity: 100%;
+  font-weight: bold;
 }
 
 h1 {
