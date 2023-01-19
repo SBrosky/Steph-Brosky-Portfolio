@@ -226,6 +226,11 @@ img {
     font-size: 12px;
     margin-bottom: 30px;
   }
+
+  nav li {
+    margin-right: 10px;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 993px) {
