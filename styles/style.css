@@ -43,6 +43,13 @@ h2 {
   font-size: 36px;
 }
 
+h4 {
+  font-family: var(--headline-font-family);
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+}
+
 p {
   font-family: var(--main-font-family);
   font-weight: normal;
@@ -51,7 +58,7 @@ p {
 }
 
 img {
-  margin: 10px 30px;
+  margin: 10px;
   border-radius: 5px;
   padding: 20px;
   background-color: var(--main-brand-color);
@@ -163,6 +170,48 @@ img {
   font-weight: normal;
 }
 
+.footer-box {
+  margin: 50px 0;
+  padding: 50px 100px;
+  background: var(--main-brand-color);
+  border-radius: 6px;
+}
+
+.footer-box p {
+  margin: 0;
+  font-family: var(--main-font-family);
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 24px;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  font-family: var(--main-font-family);
+  color: var(--secondary-brand-color);
+  padding-bottom: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+.footer-bottom a:hover {
+  color: black;
+}
+
+.footer-bottom i {
+  padding: 10px;
+  color: white;
+  background: var(--secondary-brand-color);
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+.footer-bottom i:hover {
+  color: var(--secondary-brand-color);
+  background: var(--main-brand-color);
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 44px;
@@ -234,6 +283,10 @@ img {
   nav li {
     margin-right: 10px;
     font-size: 14px;
+  }
+
+  .footer-bottom a {
+    margin-top: 20px;
   }
 }
 
