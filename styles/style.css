@@ -2,7 +2,7 @@
   --headline-font-family: "Playfair Display", serif;
   --main-font-family: "Poppins", sans-serif;
   --main-brand-color: #f9f7fe;
-  --secondary-brand-color: #6c63ff;
+  --secondary-brand-color: #24b6ca;
 }
 
 nav {
@@ -122,8 +122,8 @@ img {
 
 .app-btn {
   background-color: var(--main-brand-color);
-  color: var(--secondary-brand-color);
-  border: 1px solid var(--secondary-brand-color);
+  color: black;
+  border: 1px solid black;
   padding: 8px 25px;
   transition: all 150ms ease-in-out;
 }
